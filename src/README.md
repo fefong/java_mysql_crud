@@ -18,7 +18,7 @@ protected boolean conect() {
 }
 ```
 
-## Disconect
+## Disconnect
 
 ```java
 protected boolean disconect() {
@@ -59,5 +59,5 @@ public List<Person> list(int[] listPerson);
 
 ##  PersonDAO
 
-* See [PersonDAO](src/dao/PersonDAO.java)
+* See [PersonDAO](https://github.com/fefong/java_mysql_crud/blob/master/src/dao/PersonDAO.java)
   
