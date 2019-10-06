@@ -111,10 +111,10 @@ cn.close();
 
 How to call procedure.
 
-_Procedure:_ [Person](src/dao/PersonDAO.java);
+_Procedure implemented:_ [PersonDAO](src/dao/PersonDAO.java);
 
 ```java
-CallableStatement cstmt = cn.prepareCall("{ call stp_name (? ) }");
+CallableStatement cstmt = cn.prepareCall(PROCEDURE_DELETE_PERSON);
 cstmt.setInt(1, id);
 
 cstmt.execute();
@@ -126,11 +126,11 @@ cstmt.execute();
 
 How to select VIEW.
 
-_View:_ [Person](src/dao/PersonDAO.java);
+_View implemented:_ [PersonDAO](src/dao/PersonDAO.java);
 
 ```java
 st = cn.createStatement();
-rs = st.executeQuery("select * from view_name");
+rs = st.executeQuery(VIEW_PERSON);
 
 while (rs.next()) {
 persons.add(
