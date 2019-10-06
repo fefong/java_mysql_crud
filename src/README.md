@@ -17,6 +17,8 @@ protected boolean conect() {
     }
 }
 ```
+* See [Variables](https://github.com/fefong/java_mysql_crud/blob/master/README.md#variables)
+* See [Constants](https://github.com/fefong/java_mysql_crud/blob/master/README.md#constants)
 
 ## Disconnect
 
@@ -30,6 +32,8 @@ protected boolean disconect() {
   return false;
 }
 ```
+* See [Variables](https://github.com/fefong/java_mysql_crud/blob/master/README.md#variables)
+* See [Constants](https://github.com/fefong/java_mysql_crud/blob/master/README.md#constants)
 
 ## Interface
  
