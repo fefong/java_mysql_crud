@@ -49,6 +49,7 @@ public abstract class database {
 
 		try {
 			cn.close();
+			return true;
 		} catch (SQLException e) {
 			logger.warning(String.format("Code: %s | Message: %s", e.getErrorCode(), e.getMessage()));
 		}
@@ -58,7 +59,6 @@ public abstract class database {
 
 	protected boolean isClosed() {
 		try {
-
 			return cn.isClosed();
 		} catch (SQLException e) {
 			logger.warning(String.format("Code: %s | Message: %s", e.getErrorCode(), e.getMessage()));
