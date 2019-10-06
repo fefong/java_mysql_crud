@@ -100,19 +100,30 @@ Class.forName(driver);
 cn = DriverManager.getConnection(String url,String user, String password);
 ```
 * See [Variables](#Variables)
+* See [Database class](/src/dao/database.java)
 
 ### Method - Disconnect database
 
 ```java
 cn.close();
 ```
+* See [Database class](/src/dao/database.java)
 
 ## Procedure
 
 How to call procedure.
 
-_Procedure implemented:_ [PersonDAO](src/dao/PersonDAO.java);
+_Procedure implemented:_ [PersonDAO](src/dao/PersonDAO.java)
 
+Check connection
+```java
+if (conect()) {
+// TODO 
+}
+```
+* See [Database class](/src/dao/database.java)
+
+Procedure implementation
 ```java
 CallableStatement cstmt = cn.prepareCall(PROCEDURE_DELETE_PERSON);
 cstmt.setInt(1, id);
@@ -128,6 +139,12 @@ How to select VIEW.
 
 _View implemented:_ [PersonDAO](src/dao/PersonDAO.java);
 
+List
+```java
+List<Person> persons = new ArrayList<Person>();
+```
+
+View implementation
 ```java
 st = cn.createStatement();
 rs = st.executeQuery(VIEW_PERSON);
@@ -144,6 +161,8 @@ persons.add(
 ```
 * See [Variables](#Variables)
 * See [Constants](#Constants)
+* See [PersonDAO](src/dao/PersonDAO.java)
+  * See [Integer Array](https://github.com/fefong/java_variables#integer-array)
 
 ## Throws
 
