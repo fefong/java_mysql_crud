@@ -76,15 +76,15 @@ CallableStatement stmt = null;
 ## Constants
 
 ```java
-	static final String PROCEDURE_INSERT_PERSON = "{ call stp_insert_person (?, ? ) }";
-	static final String PROCEDURE_UPDATE_PERSON = "{ call stp_update_person (?, ?, ? ) }";
-	static final String PROCEDURE_DELETE_PERSON = "{ call stp_delete_person (? ) }";
+static final String PROCEDURE_INSERT_PERSON = "{ call stp_insert_person (?, ? ) }";
+static final String PROCEDURE_UPDATE_PERSON = "{ call stp_update_person (?, ?, ? ) }";
+static final String PROCEDURE_DELETE_PERSON = "{ call stp_delete_person (? ) }";
 
-	static final String VIEW_PERSON = "SELECT * FROM view_person";
+static final String VIEW_PERSON = "SELECT * FROM view_person";
 
-	static private final String COLUMN_ID = "id_person";
-	static private final String COLUMN_NAME = "name_person";
-	static private final String COLUMN_DATE = "date_person";
+static private final String COLUMN_ID = "id_person";
+static private final String COLUMN_NAME = "name_person";
+static private final String COLUMN_DATE = "date_person";
 ```
 * See [MySQL](#MySQL)
 
