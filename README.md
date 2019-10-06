@@ -99,7 +99,7 @@ Class.forName(driver);
 
 cn = DriverManager.getConnection(String url,String user, String password);
 ```
-* See [Method Connect](https://github.com/fefong/java_mysql_crud/tree/master/src#connect)
+* See [Method Connect](https://github.com/fefong/java_mysql_crud/blob/master/src/README.md#connect)
 * See [Variables](#Variables)
 * See [Database class](/src/dao/database.java)
 
@@ -108,7 +108,7 @@ cn = DriverManager.getConnection(String url,String user, String password);
 ```java
 cn.close();
 ```
-* See [Method Disconnect](https://github.com/fefong/java_mysql_crud/tree/master/src#disconect)
+* See [Method Disconnect](https://github.com/fefong/java_mysql_crud/blob/master/src/README.md#disconnect)
 * See [Database class](/src/dao/database.java)
 
 ## Procedure
