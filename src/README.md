@@ -26,6 +26,7 @@ protected boolean conect() {
 protected boolean disconect() {
   try {
     cn.close();
+    return true;
   } catch (SQLException e) {
     logger.warning(String.format("Code: %s | Message: %s", e.getErrorCode(), e.getMessage()));
   }
