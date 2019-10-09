@@ -164,6 +164,7 @@ persons.add(
 }
 ```
 * See [Variables](#Variables)
+* See [Loop While](https://github.com/fefong/java_loopWhile)
 * See [Constants](#Constants)
 * See [PersonDAO](src/dao/PersonDAO.java)
   * See [Integer Array](https://github.com/fefong/java_variables#integer-array)
