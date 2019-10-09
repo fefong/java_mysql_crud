@@ -92,6 +92,8 @@ static private final String COLUMN_DATE = "date_person";
 
 :warning: _Need add **throws declaration** or **surround with try/catch**;_
 
+:warning: _It is recommended to use **procedures** for insert, alter and delete and **view/procedures** for selects;_
+
 ### Method - Connect database
 
 ```java
