@@ -169,7 +169,7 @@ persons.add(
 * See [PersonDAO](src/dao/PersonDAO.java)
   * See [Integer Array](https://github.com/fefong/java_variables#integer-array)
 
-## Throws
+## Exception
 
 * _SQLException;_
 * _ClassNotFoundException;_
